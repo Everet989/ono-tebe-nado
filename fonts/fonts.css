@@ -1,18 +1,18 @@
 @font-face {
-  font-family: "Raleway normal";
+  font-family: "Raleway";
   src:
     url(./Raleway-Regular.woff2) format('woff2'),
     url(./Raleway-Regular.woff) format('woff');
-  font-weight: 400px;
+  font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Raleway bold";
+  font-family: "Raleway";
   src:
     url(./Raleway-Bold.woff2) format('woff2'),
     url(./Raleway-Bold.woff) format('woff');
-  font-weight: 700px;
+  font-weight: 700;
   font-display: swap;
 }
 
