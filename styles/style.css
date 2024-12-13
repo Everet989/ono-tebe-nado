@@ -34,15 +34,19 @@
   gap: 34px;
 }
 
-.header__links-list-item {
-  list-style-type: circle;
-}
-.header_links-list .no_bullits_link {
-  list-style-type: none;
+.header__links-list-item { 
+  list-style-type: circle; 
+} 
+.header_links-list .no_bullits_link { 
+  list-style-type: none; 
+} 
+
+.header_links-list .decoration_link {
+  text-decoration: none;
 }
 
-.header_active_link {
-  text-decoration: none;
+.header__link { 
+  text-decoration: underline; 
 }
 
 /* Правила логотипа */
@@ -177,6 +181,7 @@
 
 .lots__card-list-item {
   list-style-type: none;
+  min-height: 560px;
 }
 
 .card-link {
@@ -196,15 +201,15 @@
   padding: 51px 40px 48px 40px;
   color: #fff;
   height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Карточка фильма */
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .card__title {
@@ -233,18 +238,12 @@
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* Card cartoon */
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* scroll card */
